@@ -1,0 +1,14 @@
+# Table 1b — External partition metrics for top-1 recommendation (mean ± std)
+
+| Method / MF set   | Meta-learner   | ARI           | AMI           |
+|:------------------|:---------------|:--------------|:--------------|
+| MeanRank          | Baseline       | 0.106 ± 0.171 | 0.180 ± 0.241 |
+| MajorityRank      | Baseline       | 0.100 ± 0.162 | 0.175 ± 0.238 |
+| Distance          | kNN            | 0.155 ± 0.224 | 0.214 ± 0.272 |
+| Distance          | RF             | 0.150 ± 0.223 | 0.210 ± 0.270 |
+| CaD-Sp            | kNN            | 0.164 ± 0.233 | 0.227 ± 0.275 |
+| CaD-Sp            | RF             | 0.173 ± 0.238 | 0.231 ± 0.279 |
+| CaD-Ke            | kNN            | 0.170 ± 0.235 | 0.228 ± 0.276 |
+| CaD-Ke            | RF             | 0.173 ± 0.238 | 0.230 ± 0.279 |
+| CaD-Ch            | kNN            | 0.164 ± 0.234 | 0.225 ± 0.282 |
+| CaD-Ch            | RF             | 0.169 ± 0.235 | 0.231 ± 0.282 |

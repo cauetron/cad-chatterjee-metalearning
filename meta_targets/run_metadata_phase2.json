@@ -1,0 +1,29 @@
+{
+  "phase": 2,
+  "created_at": "2026-05-21T14:56:19",
+  "datasets_dir": "datasets",
+  "output_dir": "meta_targets",
+  "max_n": 5000,
+  "random_state": 42,
+  "algorithms": [
+    "KM",
+    "WA",
+    "AA",
+    "GMd",
+    "GMf"
+  ],
+  "indices": [
+    "CH",
+    "Sil",
+    "Dunn",
+    "Gamma",
+    "Tau",
+    "DB",
+    "XB",
+    "SD_Scat",
+    "SD_Dis",
+    "RT"
+  ],
+  "xb_formula": "mean squared error divided by minimum squared point-to-point distance between different clusters",
+  "rt_formula": "mean squared error divided by minimum squared centroid-to-centroid distance"
+}
