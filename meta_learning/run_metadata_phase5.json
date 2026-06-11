@@ -1,0 +1,28 @@
+{
+  "phase": 5,
+  "created_at": "2026-06-05T14:38:23",
+  "input": "./meta_learning/results_full.csv",
+  "output_dir": "meta_learning",
+  "alpha": 0.05,
+  "metrics": [
+    "SRC",
+    "WRC",
+    "NDCG@3",
+    "Top1Hit",
+    "Regret@1",
+    "ARI",
+    "AMI"
+  ],
+  "lower_is_better": [
+    "Regret@1"
+  ],
+  "comparisons": [
+    "CaD-Sp vs CaD-Ch",
+    "CaD-Sp vs CaD-Ke"
+  ],
+  "scopes": [
+    "run",
+    "dataset"
+  ],
+  "note": "dataset scope aggregates repeated CV scores by dataset before Wilcoxon and is the conservative test."
+}
